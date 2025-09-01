@@ -32,14 +32,14 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Jackson Databind for JSON -->
+        <!-- Jackson Databind -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.17.2</version>
         </dependency>
 
-        <!-- Optional: SLF4J simple logger to remove warnings -->
+        <!-- SLF4J simple logger -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -55,14 +55,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M8</version>
-                <!-- Optional: uncomment if you have testng.xml at project root -->
-                <!--
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+                    <!-- Force Surefire to generate XML reports even without testng.xml -->
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
-                -->
             </plugin>
         </plugins>
     </build>
