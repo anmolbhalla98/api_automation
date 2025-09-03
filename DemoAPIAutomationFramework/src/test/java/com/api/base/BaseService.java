@@ -11,7 +11,7 @@ public class BaseService { //Wrapper for Rest Assured!
 	//Creating The Request
 	// Handling The Response
 	private static final String BASE_URL="http://64.227.160.186:8080";// We  often write constants in Upper Case and we use final keyword and if we use final we always use static in variables private we use to abstract
-	private RequestSpecification requestSpecification;
+	protected RequestSpecification requestSpecification;
 	public BaseService() {
 		requestSpecification=given().baseUri(BASE_URL);
 	}
