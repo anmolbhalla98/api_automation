@@ -40,7 +40,7 @@
       </class> <!-- com.api.tests.SignupAPITest -->
     </classes>
   </test> <!-- Signup Tests(failed) -->
-  <test thread-count="5" name="Signup -&gt; Login Chain Test(failed)">
+  <test thread-count="5" name="SignupLoginChain Tests(failed)">
     <classes>
       <class name="com.api.tests.SignupLoginChainTest">
         <methods>
@@ -48,5 +48,5 @@
         </methods>
       </class> <!-- com.api.tests.SignupLoginChainTest -->
     </classes>
-  </test> <!-- Signup -> Login Chain Test(failed) -->
+  </test> <!-- SignupLoginChain Tests(failed) -->
 </suite> <!-- Failed suite [API Test Suite] -->

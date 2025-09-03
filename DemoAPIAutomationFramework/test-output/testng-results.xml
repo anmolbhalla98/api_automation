@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-04T02:52:00 IST" name="API Test Suite" finished-at="2025-09-04T02:52:20 IST" duration-ms="20400">
+  <suite started-at="2025-09-04T03:30:20 IST" name="API Test Suite" finished-at="2025-09-04T03:30:41 IST" duration-ms="20868">
     <groups>
     </groups>
-    <test started-at="2025-09-04T02:52:00 IST" name="Health Tests" finished-at="2025-09-04T02:52:07 IST" duration-ms="6969">
+    <test started-at="2025-09-04T03:30:20 IST" name="Health Tests" finished-at="2025-09-04T03:30:27 IST" duration-ms="7243">
       <class name="com.api.tests.HealthAPITest">
-        <test-method signature="healthCheckWithToken()[pri:0, instance:com.api.tests.HealthAPITest@37afeb11]" started-at="2025-09-04T02:52:00 IST" name="healthCheckWithToken" description="Verifying Health API with authentication" finished-at="2025-09-04T02:52:05 IST" duration-ms="4424" status="FAIL">
+        <test-method signature="healthCheckWithToken()[pri:0, instance:com.api.tests.HealthAPITest@37afeb11]" started-at="2025-09-04T03:30:20 IST" name="healthCheckWithToken" description="Verifying Health API with authentication" finished-at="2025-09-04T03:30:25 IST" duration-ms="4873" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -142,7 +142,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthCheckWithToken -->
-        <test-method signature="healthCheckWithoutToken()[pri:0, instance:com.api.tests.HealthAPITest@37afeb11]" started-at="2025-09-04T02:52:05 IST" name="healthCheckWithoutToken" description="Verifying Health API without authentication" finished-at="2025-09-04T02:52:07 IST" duration-ms="2470" status="FAIL">
+        <test-method signature="healthCheckWithoutToken()[pri:0, instance:com.api.tests.HealthAPITest@37afeb11]" started-at="2025-09-04T03:30:25 IST" name="healthCheckWithoutToken" description="Verifying Health API without authentication" finished-at="2025-09-04T03:30:27 IST" duration-ms="2264" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -282,9 +282,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- healthCheckWithoutToken -->
       </class> <!-- com.api.tests.HealthAPITest -->
     </test> <!-- Health Tests -->
-    <test started-at="2025-09-04T02:52:07 IST" name="Login Tests" finished-at="2025-09-04T02:52:16 IST" duration-ms="8899">
+    <test started-at="2025-09-04T03:30:27 IST" name="Login Tests" finished-at="2025-09-04T03:30:36 IST" duration-ms="9026">
       <class name="com.api.tests.LoginAPITest3">
-        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:com.api.tests.LoginAPITest3@411f53a0]" started-at="2025-09-04T02:52:12 IST" name="loginWithInvalidCredentials" description="Verify Login API with invalid credentials" finished-at="2025-09-04T02:52:14 IST" duration-ms="2207" status="FAIL">
+        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:com.api.tests.LoginAPITest3@411f53a0]" started-at="2025-09-04T03:30:32 IST" name="loginWithInvalidCredentials" description="Verify Login API with invalid credentials" finished-at="2025-09-04T03:30:34 IST" duration-ms="2248" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -402,7 +402,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.api.tests.LoginAPITest3@411f53a0]" started-at="2025-09-04T02:52:14 IST" name="loginWithValidCredentials" description="Verify Login API with valid credentials" finished-at="2025-09-04T02:52:16 IST" duration-ms="2230" status="FAIL">
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.api.tests.LoginAPITest3@411f53a0]" started-at="2025-09-04T03:30:34 IST" name="loginWithValidCredentials" description="Verify Login API with valid credentials" finished-at="2025-09-04T03:30:36 IST" duration-ms="2246" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -522,7 +522,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- loginWithValidCredentials -->
       </class> <!-- com.api.tests.LoginAPITest3 -->
       <class name="com.api.tests.LoginAPITest2">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest2@6b2ea799]" started-at="2025-09-04T02:52:09 IST" name="loginTest" description="Verifying Login API is Workng" finished-at="2025-09-04T02:52:12 IST" duration-ms="2219" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest2@6b2ea799]" started-at="2025-09-04T03:30:30 IST" name="loginTest" description="Verifying Login API is Workng" finished-at="2025-09-04T03:30:32 IST" duration-ms="2253" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -640,7 +640,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- loginTest -->
       </class> <!-- com.api.tests.LoginAPITest2 -->
       <class name="com.api.tests.LoginAPITest">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@51399530]" started-at="2025-09-04T02:52:07 IST" name="loginTest" description="Verifying Login API is Workng" finished-at="2025-09-04T02:52:09 IST" duration-ms="2223" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@51399530]" started-at="2025-09-04T03:30:27 IST" name="loginTest" description="Verifying Login API is Workng" finished-at="2025-09-04T03:30:30 IST" duration-ms="2235" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -758,9 +758,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- loginTest -->
       </class> <!-- com.api.tests.LoginAPITest -->
     </test> <!-- Login Tests -->
-    <test started-at="2025-09-04T02:52:16 IST" name="Signup Tests" finished-at="2025-09-04T02:52:18 IST" duration-ms="2235">
+    <test started-at="2025-09-04T03:30:36 IST" name="Signup Tests" finished-at="2025-09-04T03:30:39 IST" duration-ms="2248">
       <class name="com.api.tests.SignupAPITest">
-        <test-method signature="signupUserTest()[pri:0, instance:com.api.tests.SignupAPITest@13c9d689]" started-at="2025-09-04T02:52:16 IST" name="signupUserTest" description="Verifying user signup with positive and negative cases" finished-at="2025-09-04T02:52:18 IST" duration-ms="2230" status="FAIL">
+        <test-method signature="signupUserTest()[pri:0, instance:com.api.tests.SignupAPITest@13c9d689]" started-at="2025-09-04T03:30:36 IST" name="signupUserTest" description="Verifying user signup with positive and negative cases" finished-at="2025-09-04T03:30:39 IST" duration-ms="2243" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -879,9 +879,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- signupUserTest -->
       </class> <!-- com.api.tests.SignupAPITest -->
     </test> <!-- Signup Tests -->
-    <test started-at="2025-09-04T02:52:18 IST" name="Signup -&gt; Login Chain Test" finished-at="2025-09-04T02:52:20 IST" duration-ms="2198">
+    <test started-at="2025-09-04T03:30:39 IST" name="SignupLoginChain Tests" finished-at="2025-09-04T03:30:41 IST" duration-ms="2220">
       <class name="com.api.tests.SignupLoginChainTest">
-        <test-method signature="signupAndLoginChain()[pri:0, instance:com.api.tests.SignupLoginChainTest@5b7a5baa]" started-at="2025-09-04T02:52:18 IST" name="signupAndLoginChain" description="Simple Signup -&gt; Login chain" finished-at="2025-09-04T02:52:20 IST" duration-ms="2196" status="FAIL">
+        <test-method signature="signupAndLoginChain()[pri:0, instance:com.api.tests.SignupLoginChainTest@5b7a5baa]" started-at="2025-09-04T03:30:39 IST" name="signupAndLoginChain" description="Simple Signup -&gt; Login chain" finished-at="2025-09-04T03:30:41 IST" duration-ms="2215" status="FAIL">
           <exception class="java.net.ConnectException">
             <message>
               <![CDATA[Connection refused: connect]]>
@@ -999,6 +999,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- signupAndLoginChain -->
       </class> <!-- com.api.tests.SignupLoginChainTest -->
-    </test> <!-- Signup -> Login Chain Test -->
+    </test> <!-- SignupLoginChain Tests -->
   </suite> <!-- API Test Suite -->
 </testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite" verbose="1" parallel="false">
+
+    <!-- Health API Tests -->
+    <test name="Health Tests">
+        <classes>
+            <class name="com.api.tests.HealthAPITest"/>
+        </classes>
+    </test>
+
+    <!-- Login API Tests -->
+    <test name="Login Tests">
+        <classes>
+            <class name="com.api.tests.LoginAPITest"/>
+            <class name="com.api.tests.LoginAPITest2"/>
+            <class name="com.api.tests.LoginAPITest3"/>
+        </classes>
+    </test>
+
+    <!-- Signup Tests -->
+    <test name="Signup Tests">
+        <classes>
+            <class name="com.api.tests.SignupAPITest"/>
+        </classes>
+    </test>
+
+    <!-- Signup -> Login Chain Tests -->
+    <test name="SignupLoginChain Tests">
+        <classes>
+            <class name="com.api.tests.SignupLoginChainTest"/>
+        </classes>
+    </test>
+
+</suite>

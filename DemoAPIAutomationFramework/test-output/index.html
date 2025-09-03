@@ -920,11 +920,11 @@
       &lt;class name=&quot;com.api.tests.SignupAPITest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Signup Tests --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Signup -&amp;gt; Login Chain Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignupLoginChain Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.api.tests.SignupLoginChainTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Signup -&gt; Login Chain Test --&gt;
+  &lt;/test&gt; &lt;!-- SignupLoginChain Tests --&gt;
 &lt;/suite&gt; &lt;!-- API Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -945,7 +945,7 @@
                 <span class="test-name">Signup Tests (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Signup -> Login Chain Test (1 class)</span>
+                <span class="test-name">SignupLoginChain Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -975,35 +975,35 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'healthCheckWithToken')
 data.setCell(0, 2, 'com.api.tests.HealthAPITest')
-data.setCell(0, 3, 4424);
+data.setCell(0, 3, 4873);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'healthCheckWithoutToken')
 data.setCell(1, 2, 'com.api.tests.HealthAPITest')
-data.setCell(1, 3, 2470);
+data.setCell(1, 3, 2264);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginWithValidCredentials')
-data.setCell(2, 2, 'com.api.tests.LoginAPITest3')
-data.setCell(2, 3, 2230);
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.api.tests.LoginAPITest2')
+data.setCell(2, 3, 2253);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'signupUserTest')
-data.setCell(3, 2, 'com.api.tests.SignupAPITest')
-data.setCell(3, 3, 2230);
+data.setCell(3, 1, 'loginWithInvalidCredentials')
+data.setCell(3, 2, 'com.api.tests.LoginAPITest3')
+data.setCell(3, 3, 2248);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'com.api.tests.LoginAPITest')
-data.setCell(4, 3, 2223);
+data.setCell(4, 1, 'loginWithValidCredentials')
+data.setCell(4, 2, 'com.api.tests.LoginAPITest3')
+data.setCell(4, 3, 2246);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginTest')
-data.setCell(5, 2, 'com.api.tests.LoginAPITest2')
-data.setCell(5, 3, 2219);
+data.setCell(5, 1, 'signupUserTest')
+data.setCell(5, 2, 'com.api.tests.SignupAPITest')
+data.setCell(5, 3, 2243);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginWithInvalidCredentials')
-data.setCell(6, 2, 'com.api.tests.LoginAPITest3')
-data.setCell(6, 3, 2207);
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'com.api.tests.LoginAPITest')
+data.setCell(6, 3, 2235);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'signupAndLoginChain')
 data.setCell(7, 2, 'com.api.tests.SignupLoginChainTest')
-data.setCell(7, 3, 2196);
+data.setCell(7, 3, 2215);
 window.suiteTableData['API_Test_Suite']= { tableData: data, tableDiv: 'times-div-API_Test_Suite'}
 return data;
 }
@@ -1045,7 +1045,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">healthCheckWithoutToken</span>
-                <span class="method-start">4430 ms</span>
+                <span class="method-start">4897 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1054,7 +1054,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">6980 ms</span>
+                <span class="method-start">7277 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1063,7 +1063,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">9208 ms</span>
+                <span class="method-start">9526 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1072,13 +1072,13 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginWithInvalidCredentials</span>
-                <span class="method-start">11430 ms</span>
+                <span class="method-start">11792 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginWithValidCredentials</span>
-                <span class="method-start">13639 ms</span>
+                <span class="method-start">14052 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1087,7 +1087,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">signupUserTest</span>
-                <span class="method-start">15899 ms</span>
+                <span class="method-start">16325 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1096,7 +1096,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">signupAndLoginChain</span>
-                <span class="method-start">18143 ms</span>
+                <span class="method-start">18585 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
